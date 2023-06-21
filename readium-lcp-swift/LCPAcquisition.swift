@@ -22,7 +22,6 @@ public final class LCPAcquisition: Loggable {
         public let suggestedFilename: String
         
         /// Download task used to fetch the publication.
-        @available(*, unavailable, message: "R2Shared.DownloadSession is deprecated")
         public let downloadTask: URLSessionDownloadTask?
     }
     
